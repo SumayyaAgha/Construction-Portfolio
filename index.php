@@ -69,7 +69,7 @@ $projects_json = json_encode($projects_array);
     </nav>
     <section class="hero" id="home">
     <div class="hero-content">
-        <span class="badge"><?php echo $hero['badge_text']; ?></span>
+        <span class="badge"><i class="fa-solid fa-building"></i> <?php echo $hero['badge_text']; ?></span>
         <h1><?php echo $hero['title_line1']; ?><br><?php echo $hero['title_line2']; ?> <span class="highlight"><?php echo $hero['highlight_word']; ?></span></h1>
         <p><?php echo $hero['subtitle']; ?></p>
         <div class="hero-buttons">

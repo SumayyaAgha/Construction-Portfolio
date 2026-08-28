@@ -24,7 +24,7 @@
         <a href="track_record.php"><i class="fa-solid fa-chart-line"></i> Track Record</a>
         <a href="track_stats.php"><i class="fa-solid fa-trophy"></i> Track Stats</a>
 
-        <div class="nav-group-label">Our Work</div>
+        <div class="nav-group-label">Portfolio</div>
         <a href="projects.php"><i class="fa-solid fa-building"></i> Projects</a>
     </nav>
     <div class="sidebar-footer">

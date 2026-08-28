@@ -181,9 +181,11 @@ body {
   border-radius: 14px;
   box-shadow: 0 2px 12px rgba(26,26,46,0.06);
 }
-.content-card p {
-  color: #555;
-  font-size: 15.5px;
+.content-card {
+  background: white;
+  padding: 40px;
+  border-radius: 14px;
+  box-shadow: 0 2px 12px rgba(26,26,46,0.06);
 }
 .stats-grid {
   display: grid;
@@ -220,4 +222,114 @@ body {
 .stat-card .stat-label {
   font-size: 13px;
   color: #888;
+}
+.form-group {
+  margin-bottom: 22px;
+}
+.form-group label {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  color: #1a1a2e;
+  margin-bottom: 8px;
+}
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14.5px;
+  font-family: 'Poppins', sans-serif;
+}
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #f97316;
+}
+.form-group textarea {
+  resize: vertical;
+  min-height: 90px;
+}
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.btn-save {
+  background: #f97316;
+  color: white;
+  border: none;
+  padding: 16px 40px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+}
+.btn-save:hover {
+  background: #ea6a0f;
+}
+.alert-success {
+  background: #dcfce7;
+  color: #166534;
+  padding: 14px 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 14.5px;
+}
+.crud-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 14px;
+}
+
+.crud-table th {
+  text-align: left;
+  padding: 0 20px 8px;
+  font-size: 13px;
+  color: #999;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.crud-table td {
+  padding: 22px 20px;
+  background: #fafafa;
+  border: 1px solid #eee;
+  font-size: 15px;
+  color: #333;
+}
+
+.crud-table tr td:first-child {
+  border-radius: 10px 0 0 10px;
+  border-right: none;
+}
+
+.crud-table tr td:last-child {
+  border-radius: 0 10px 10px 0;
+  border-left: none;
+}
+
+.crud-table input {
+  width: 100%;
+  padding: 14px 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  background: white;
+}
+
+.crud-table input:focus {
+  outline: none;
+  border-color: #f97316;
+  box-shadow: 0 0 0 3px rgba(249,115,22,0.1);
+}
+
+.crud-table td:first-child {
+  font-size: 20px;
+  font-weight: 700;
+  color: #f97316;
+  text-align: center;
+  width: 70px;
 }

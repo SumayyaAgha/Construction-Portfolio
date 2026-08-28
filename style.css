@@ -1,3 +1,12 @@
+html{
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+html::-webkit-scrollbar{
+  display: none;
+  width: 0;
+  height: 0;
+}
 * {
   margin: 0;
   padding: 0;
@@ -78,7 +87,7 @@
               url('images/background.jpg');
   background-size: cover;
   background-position: center;
-  min-height: 650px;
+  min-height: 800px;
   display: flex;
   align-items: center;
   padding: 0 60px;
@@ -146,7 +155,7 @@
   bottom: 0;
   left: 70px;
   right: 70px;
-  transform: translateY(50%); 
+  transform: translateY(35%); 
   background: #f97316;
   display: flex;
   justify-content: space-around;
@@ -593,27 +602,4 @@
   color: white;
   font-size: 32px;
   cursor: pointer;
-}
-html{
-  scroll-behavior: smooth;
-}
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #f97316;
-  border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #d96410;
-}
-
-::-webkit-scrollbar-button {
-  display: none;
 }
