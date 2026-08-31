@@ -33,6 +33,7 @@ $projects_count = mysqli_fetch_assoc(mysqli_query($conn, "SELECT COUNT(*) as c F
         </div>
 
         <div class="stats-grid">
+            
             <div class="stat-card">
                 <div class="stat-icon"><i class="fa-solid fa-chart-simple"></i></div>
                 <div>

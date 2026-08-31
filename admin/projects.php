@@ -35,7 +35,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['add_project'])) {
     }
 }
 
-// UPDATE (inline edit)
+// UPDATE 
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['update_project'])) {
     $id = intval($_POST['id']);
     $image = trim($_POST['image']);
@@ -180,8 +180,10 @@ $editing_id = isset($_GET['edit']) ? intval($_GET['edit']) : null;
                                             <label>Order</label>
                                             <input type="number" name="display_order" value="<?php echo $row['display_order']; ?>" required>
                                         </div>
-                                        <button type="submit" name="update_project" class="btn-save">Save</button>
-                                        <a href="projects.php" class="btn-cancel">Cancel</a>
+                                        <div style="display:flex; gap:12px; margin-top:10px;">
+                                            <button type="submit" name="update_project" class="btn-save">Save</button>
+                                            <a href="projects.php" class="btn-cancel">Cancel</a>
+                                        </div>
                                     </form>
                                 </td>
                             </tr>
