@@ -15,7 +15,4 @@ A dynamic construction portfolio website with a complete admin panel. Built as a
 
 #Project Goal
 Allow administrators to manage all website content (text, images, counters, services) directly from the admin dashboard without touching any source code.
-![Uploading Screenshot 2026-09-01 174130.png…]()
-![Uploading Screenshot 2026-09-01 174048.png…]()
-![Uploading Screenshot 2026-09-01 174022.png…]()
-![Uploading Screenshot 2026-09-01 173526.png…]()
+
