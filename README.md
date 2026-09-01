@@ -5,13 +5,14 @@ A dynamic construction portfolio website with a complete admin panel. Built as a
 - ✅ Dynamic content pulled from MySQL database
 - ✅ Full admin panel (CRUD operations)
 - ✅ 4 main sections: Home, About, Services, Projects
-- ✅ No hardcoded content—everything is database-driven
+- ✅ No hardcoded content, everything is database-driven
 - ✅ Content updates instantly reflect on the client side
 
 #Tech Stack
 - PHP (Native)
 - MySQL
 - HTML & CSS
+<img width="1917" height="1077" alt="Screenshot 2026-09-01 173526" src="https://github.com/user-attachments/assets/ac802dd4-50c2-4f96-8ac1-bd913a0993c8" />
 
 #Project Goal
 Allow administrators to manage all website content (text, images, counters, services) directly from the admin dashboard without touching any source code.
